@@ -10,10 +10,4 @@ import Foundation
 
 
 
-println("Hello, World!")
-
-
-func newFuncTest(testString: String) {
-    
-}
-
+println("All solutions are currently in playgrounds. Check the Playgrounds for a chapter that interests you.")
