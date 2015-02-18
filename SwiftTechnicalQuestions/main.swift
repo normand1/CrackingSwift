@@ -8,5 +8,12 @@
 
 import Foundation
 
+
+
 println("Hello, World!")
+
+
+func newFuncTest(testString: String) {
+    
+}
 
