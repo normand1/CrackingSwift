@@ -26,6 +26,7 @@
 		BB6D4A0F1A94548D00BAF2AF /* SwiftTechnicalQuestions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTechnicalQuestions; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6D4A121A94548D00BAF2AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BB8AE60B1A94560200DCD738 /* ArraysAndStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ArraysAndStrings.playground; path = SwiftTechnicalQuestions/ArraysAndStrings.playground; sourceTree = "<group>"; };
+		BBD6E95B1A95B3BD00DF3252 /* LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = LinkedLists.playground; path = SwiftTechnicalQuestions/LinkedLists.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		BB6D4A061A94548D00BAF2AF = {
 			isa = PBXGroup;
 			children = (
+				BBD6E95B1A95B3BD00DF3252 /* LinkedLists.playground */,
 				BB8AE60B1A94560200DCD738 /* ArraysAndStrings.playground */,
 				BB6D4A111A94548D00BAF2AF /* SwiftTechnicalQuestions */,
 				BB6D4A101A94548D00BAF2AF /* Products */,
