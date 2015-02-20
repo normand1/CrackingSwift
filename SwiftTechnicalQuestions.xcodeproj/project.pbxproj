@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB6927ED1A96B8E300DEC31A /* StacksAndQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */; };
 		BB6D4A131A94548D00BAF2AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D4A121A94548D00BAF2AF /* main.swift */; };
+		BB9DD8221A9648F500B8C4BE /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StacksAndQueues.swift; sourceTree = "<group>"; };
 		BB6D4A0F1A94548D00BAF2AF /* SwiftTechnicalQuestions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTechnicalQuestions; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6D4A121A94548D00BAF2AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BB8AE60B1A94560200DCD738 /* ArraysAndStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ArraysAndStrings.playground; path = SwiftTechnicalQuestions/ArraysAndStrings.playground; sourceTree = "<group>"; };
+		BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedLists.swift; sourceTree = "<group>"; };
 		BBD6E95B1A95B3BD00DF3252 /* LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = LinkedLists.playground; path = SwiftTechnicalQuestions/LinkedLists.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				BB6D4A121A94548D00BAF2AF /* main.swift */,
+				BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */,
+				BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */,
 			);
 			path = SwiftTechnicalQuestions;
 			sourceTree = "<group>";
@@ -122,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9DD8221A9648F500B8C4BE /* LinkedLists.swift in Sources */,
+				BB6927ED1A96B8E300DEC31A /* StacksAndQueues.swift in Sources */,
 				BB6D4A131A94548D00BAF2AF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
