@@ -29,6 +29,12 @@ class Stack {
         return nil
     }
     
+    
+    /**
+    add a new node to the top of the stack
+    
+    :param: aNode new node with value
+    */
     func push(aNode : Node) {
         aNode.next = top
         top = aNode
@@ -45,6 +51,11 @@ class Stack {
         
     }
     
+    /**
+    peek at the top value on the stack
+    
+    :returns: the top node on the stack
+    */
     func peek()->Node?
     {
         return top!
@@ -64,6 +75,11 @@ class Queue {
         println("new queue created")
     }
     
+    /**
+    add a new node to the end of the queue
+    
+    :param: data data paramter to add to the new queue
+    */
     func enqueue(data : Int) {
         
         var thisNode = first
@@ -81,6 +97,12 @@ class Queue {
         }
     }
     
+    
+    /**
+    first in line Node is returned and the next Node becomes first
+    
+    :returns: node that is first in line
+    */
     func dequeue()->Node {
         var thisNode = first
         
@@ -91,6 +113,9 @@ class Queue {
         
     }
     
+    /**
+    traverse the entire queue and print out all data values of the nodes
+    */
     func printAll() {
         var thisNode = first
         
