@@ -1,7 +1,5 @@
 import UIKit
 
-
-
 var str = "abcdfghjkl"
 
 /**

@@ -81,7 +81,13 @@ class Queue {
         }
     }
     
-    func dequeue() {
+    func dequeue()->Node {
+        var thisNode = first
+        
+        first = thisNode!.next
+        println("dequeued this node: \(thisNode!.data)")
+        
+        return thisNode!
         
     }
     

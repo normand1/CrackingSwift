@@ -10,7 +10,26 @@
 		BB6927ED1A96B8E300DEC31A /* StacksAndQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */; };
 		BB6D4A131A94548D00BAF2AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D4A121A94548D00BAF2AF /* main.swift */; };
 		BB9DD8221A9648F500B8C4BE /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */; };
+		BBE080FA1A983A2F00624BD1 /* ArraysAndStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE080F91A983A2F00624BD1 /* ArraysAndStrings.swift */; };
+		BBE081041A983BE900624BD1 /* SwiftTechnicalQuestionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE081031A983BE900624BD1 /* SwiftTechnicalQuestionsTests.swift */; };
+		BBE0810A1A983CF400624BD1 /* ArraysAndStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE080F91A983A2F00624BD1 /* ArraysAndStrings.swift */; };
+		BBE0810B1A983CF700624BD1 /* StacksAndQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */; };
+		BBE0810C1A983CFA00624BD1 /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */; };
+		BBE0810D1A983CFD00624BD1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D4A121A94548D00BAF2AF /* main.swift */; };
+		BBE0810F1A9840E500624BD1 /* ArraysAndStringsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0810E1A9840E500624BD1 /* ArraysAndStringsTest.swift */; };
+		BBE081111A98443000624BD1 /* StacksAndQueuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE081101A98443000624BD1 /* StacksAndQueuesTests.swift */; };
+		BBE081131A98444F00624BD1 /* LinkedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE081121A98444F00624BD1 /* LinkedListsTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBE081081A983C6300624BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6D4A071A94548D00BAF2AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6D4A0E1A94548D00BAF2AF;
+			remoteInfo = SwiftTechnicalQuestions;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BB6D4A0D1A94548D00BAF2AF /* CopyFiles */ = {
@@ -31,10 +50,25 @@
 		BB8AE60B1A94560200DCD738 /* ArraysAndStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ArraysAndStrings.playground; path = SwiftTechnicalQuestions/ArraysAndStrings.playground; sourceTree = "<group>"; };
 		BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedLists.swift; sourceTree = "<group>"; };
 		BBD6E95B1A95B3BD00DF3252 /* LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = LinkedLists.playground; path = SwiftTechnicalQuestions/LinkedLists.playground; sourceTree = "<group>"; };
+		BBE080E41A98355100624BD1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		BBE080F91A983A2F00624BD1 /* ArraysAndStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraysAndStrings.swift; sourceTree = "<group>"; };
+		BBE080FF1A983BE900624BD1 /* SwiftTechnicalQuestionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTechnicalQuestionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE081021A983BE900624BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE081031A983BE900624BD1 /* SwiftTechnicalQuestionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTechnicalQuestionsTests.swift; sourceTree = "<group>"; };
+		BBE0810E1A9840E500624BD1 /* ArraysAndStringsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraysAndStringsTest.swift; sourceTree = "<group>"; };
+		BBE081101A98443000624BD1 /* StacksAndQueuesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StacksAndQueuesTests.swift; sourceTree = "<group>"; };
+		BBE081121A98444F00624BD1 /* LinkedListsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BB6D4A0C1A94548D00BAF2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE080FC1A983BE900624BD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,9 +81,11 @@
 		BB6D4A061A94548D00BAF2AF = {
 			isa = PBXGroup;
 			children = (
+				BBE080E41A98355100624BD1 /* MyPlayground.playground */,
 				BBD6E95B1A95B3BD00DF3252 /* LinkedLists.playground */,
 				BB8AE60B1A94560200DCD738 /* ArraysAndStrings.playground */,
 				BB6D4A111A94548D00BAF2AF /* SwiftTechnicalQuestions */,
+				BBE081001A983BE900624BD1 /* SwiftTechnicalQuestionsTests */,
 				BB6D4A101A94548D00BAF2AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				BB6D4A0F1A94548D00BAF2AF /* SwiftTechnicalQuestions */,
+				BBE080FF1A983BE900624BD1 /* SwiftTechnicalQuestionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,8 +105,29 @@
 				BB6D4A121A94548D00BAF2AF /* main.swift */,
 				BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */,
 				BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */,
+				BBE080F91A983A2F00624BD1 /* ArraysAndStrings.swift */,
 			);
 			path = SwiftTechnicalQuestions;
+			sourceTree = "<group>";
+		};
+		BBE081001A983BE900624BD1 /* SwiftTechnicalQuestionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBE081031A983BE900624BD1 /* SwiftTechnicalQuestionsTests.swift */,
+				BBE0810E1A9840E500624BD1 /* ArraysAndStringsTest.swift */,
+				BBE081101A98443000624BD1 /* StacksAndQueuesTests.swift */,
+				BBE081121A98444F00624BD1 /* LinkedListsTests.swift */,
+				BBE081011A983BE900624BD1 /* Supporting Files */,
+			);
+			path = SwiftTechnicalQuestionsTests;
+			sourceTree = "<group>";
+		};
+		BBE081011A983BE900624BD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE081021A983BE900624BD1 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +150,24 @@
 			productReference = BB6D4A0F1A94548D00BAF2AF /* SwiftTechnicalQuestions */;
 			productType = "com.apple.product-type.tool";
 		};
+		BBE080FE1A983BE900624BD1 /* SwiftTechnicalQuestionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE081051A983BE900624BD1 /* Build configuration list for PBXNativeTarget "SwiftTechnicalQuestionsTests" */;
+			buildPhases = (
+				BBE080FB1A983BE900624BD1 /* Sources */,
+				BBE080FC1A983BE900624BD1 /* Frameworks */,
+				BBE080FD1A983BE900624BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBE081091A983C6300624BD1 /* PBXTargetDependency */,
+			);
+			name = SwiftTechnicalQuestionsTests;
+			productName = SwiftTechnicalQuestionsTests;
+			productReference = BBE080FF1A983BE900624BD1 /* SwiftTechnicalQuestionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -103,6 +179,9 @@
 				TargetAttributes = {
 					BB6D4A0E1A94548D00BAF2AF = {
 						CreatedOnToolsVersion = 6.1.1;
+					};
+					BBE080FE1A983BE900624BD1 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -119,22 +198,57 @@
 			projectRoot = "";
 			targets = (
 				BB6D4A0E1A94548D00BAF2AF /* SwiftTechnicalQuestions */,
+				BBE080FE1A983BE900624BD1 /* SwiftTechnicalQuestionsTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBE080FD1A983BE900624BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB6D4A0B1A94548D00BAF2AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE080FA1A983A2F00624BD1 /* ArraysAndStrings.swift in Sources */,
 				BB9DD8221A9648F500B8C4BE /* LinkedLists.swift in Sources */,
 				BB6927ED1A96B8E300DEC31A /* StacksAndQueues.swift in Sources */,
 				BB6D4A131A94548D00BAF2AF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBE080FB1A983BE900624BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE0810F1A9840E500624BD1 /* ArraysAndStringsTest.swift in Sources */,
+				BBE081111A98443000624BD1 /* StacksAndQueuesTests.swift in Sources */,
+				BBE081131A98444F00624BD1 /* LinkedListsTests.swift in Sources */,
+				BBE0810A1A983CF400624BD1 /* ArraysAndStrings.swift in Sources */,
+				BBE0810D1A983CFD00624BD1 /* main.swift in Sources */,
+				BBE0810B1A983CF700624BD1 /* StacksAndQueues.swift in Sources */,
+				BBE0810C1A983CFA00624BD1 /* LinkedLists.swift in Sources */,
+				BBE081041A983BE900624BD1 /* SwiftTechnicalQuestionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBE081091A983C6300624BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6D4A0E1A94548D00BAF2AF /* SwiftTechnicalQuestions */;
+			targetProxy = BBE081081A983C6300624BD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BB6D4A141A94548D00BAF2AF /* Debug */ = {
@@ -226,6 +340,40 @@
 			};
 			name = Release;
 		};
+		BBE081061A983BE900624BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftTechnicalQuestionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBE081071A983BE900624BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftTechnicalQuestionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -246,6 +394,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BBE081051A983BE900624BD1 /* Build configuration list for PBXNativeTarget "SwiftTechnicalQuestionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE081061A983BE900624BD1 /* Debug */,
+				BBE081071A983BE900624BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

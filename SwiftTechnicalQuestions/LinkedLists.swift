@@ -58,6 +58,10 @@ class LinkedList {
         thisNode.next = tailEndNode
     }
     
+    
+    /**
+    Traverse the linked list and print the data value of each node
+    */
     func printFullList() {
         var thisNode = head
         var index = 0
@@ -71,6 +75,11 @@ class LinkedList {
         println("Node(\(index)).data is equal to: \(thisNode.data) \n")
     }
     
+    /**
+    traverse the list and delete values at the index
+    
+    :param: index index at which to delete a node
+    */
     func deleteNodeAtIndex(index: Int) {
         var indexLoop = 0
         var thisNode = head
@@ -99,7 +108,34 @@ class LinkedList {
     }
     
     /**
-    // Remove duplicates from an unsorted linked list
+    get the data value at an index on the list
+    
+    :param: index index of which you would like to return the data value
+    
+    :returns: the data value in Int form
+    */
+    func valueAtIndex(index: Int)->Int {
+        var indexLoop = 0
+        var thisNode = head
+        var lastNode : Node!
+        
+        if index == 0 {
+            return thisNode.data
+        } else {
+            while indexLoop < index {
+                lastNode = thisNode
+                thisNode = thisNode.next!
+                indexLoop++
+            }
+        }
+        // the node at the indicated Index is thisNode
+        
+        return thisNode.data
+        
+    }
+    
+    /**
+    // 2.1 Remove duplicates from an unsorted linked list
     */
     func removeNodesWithDuplicateDataValues() {
         
@@ -128,7 +164,7 @@ class LinkedList {
     
     
     /**
-    Find the 'Kth' to the last element of a singly linked list
+    2.2 Find the 'Kth' to the last element of a singly linked list
     
     :param: k the 'Kth' element
     */
@@ -167,10 +203,8 @@ class LinkedList {
         
     }
     
-    //delete middle node without access to the head
-    
     /**
-    delete middle node without access to the head
+    2.3 delete middle node without access to the head
     
     :param: middleIndex the middle index of the linkedList you'd like to delete the middle node from
     */
