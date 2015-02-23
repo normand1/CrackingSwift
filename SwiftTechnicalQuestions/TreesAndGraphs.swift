@@ -19,6 +19,25 @@ class BSTNode {
         }
     }
     
+   static func insert(root: BSTNode?, value: Int)->BSTNode {
+        
+            
+        if root == nil {
+            return BSTNode(data: value)
+        }
+    
+        else if value < root!.data {
+            root!.left = insert(root?.left, value: value)
+        }
+        
+        else if value > root!.data {
+            root!.right = insert(root?.right, value: value)
+        }
+        
+        return root!
+        
+    }
+    
     static func traverseTreeInOrderStartingAtRoot(root: BSTNode?, array: Array<Int>)->Array<Int> {
         var resultArray = array
         
@@ -62,6 +81,49 @@ class BSTNode {
         
         
         return false
+    }
+    
+    static func size(root: BSTNode, sizeVal: Int)->Int {
+        
+        var sizeVal = sizeVal
+    
+        if root.left != nil {
+            sizeVal = size(root.left!, sizeVal: sizeVal)
+        }
+        
+        if root.right != nil {
+            sizeVal = size(root.right!, sizeVal: sizeVal)
+        }
+        
+        return sizeVal + 1
+        
+    }
+    
+    static func maxDepth(root: BSTNode?)->Int {
+        
+        if root == nil {
+            return 0
+        } else {
+                var leftDepth = maxDepth(root!.left)
+                var rightDepth = maxDepth(root!.right)
+            
+            return max(leftDepth, rightDepth) + 1
+        }
+    }
+    
+    static func isTreeBalanced(root: BSTNode?)->Bool {
+        if root == nil {
+            return true
+        } else {
+            var difference = maxDepth(root?.left) - maxDepth(root?.right)
+            if abs(difference) > 1 {
+                return false
+            } else {
+                return isTreeBalanced(root?.left) && isTreeBalanced(root?.right)
+            }
+        }
+        
+        
     }
 }
 

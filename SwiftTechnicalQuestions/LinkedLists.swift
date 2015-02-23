@@ -155,8 +155,7 @@ class LinkedList {
             var indexOfItem = find(uniqueItemsArray, item)
             if indexOfItem == nil {
                 uniqueItemsArray.append(item)
-            }
-            else {
+            } else {
                 deleteNodeAtIndex(indexOfItem!)
             }
         }
