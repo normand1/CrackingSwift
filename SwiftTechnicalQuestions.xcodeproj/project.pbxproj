@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB08909C1AA7D928003FBC9E /* MathematicsAndProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08909B1AA7D928003FBC9E /* MathematicsAndProbability.swift */; };
+		BB17F8061AA7DAFB00EB6193 /* MathematicsAndProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08909B1AA7D928003FBC9E /* MathematicsAndProbability.swift */; };
 		BB1AFFD71A98FF520088E9CD /* TreesAndGraphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE081141A985FA300624BD1 /* TreesAndGraphs.swift */; };
 		BB249D8F1A99AE59009BFE33 /* SortingAndSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD62FF51A997E5300E35C8C /* SortingAndSearching.swift */; };
 		BB249D901A99AE5D009BFE33 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D4A121A94548D00BAF2AF /* main.swift */; };
+		BB41B37F1AA842B6004EFB53 /* BitManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDFA2F11AA83E250072DEDE /* BitManipulation.swift */; };
 		BB6927ED1A96B8E300DEC31A /* StacksAndQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */; };
 		BB9DD8221A9648F500B8C4BE /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */; };
 		BBDD18B01A9AE6AB00CDE9A8 /* LinkedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE081121A98444F00624BD1 /* LinkedListsTests.swift */; };
@@ -24,6 +27,7 @@
 		BBDD18C21A9AE94600CDE9A8 /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */; };
 		BBDD18C31A9AE94900CDE9A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D4A121A94548D00BAF2AF /* main.swift */; };
 		BBDD18C41A9AEA1500CDE9A8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBDD18BA1A9AE71800CDE9A8 /* Info.plist */; };
+		BBDFA2F21AA83E250072DEDE /* BitManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDFA2F11AA83E250072DEDE /* BitManipulation.swift */; };
 		BBE080FA1A983A2F00624BD1 /* ArraysAndStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE080F91A983A2F00624BD1 /* ArraysAndStrings.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB08909B1AA7D928003FBC9E /* MathematicsAndProbability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathematicsAndProbability.swift; sourceTree = "<group>"; };
 		BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StacksAndQueues.swift; sourceTree = "<group>"; };
 		BB6D4A0F1A94548D00BAF2AF /* SwiftTechnicalQuestions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTechnicalQuestions; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6D4A121A94548D00BAF2AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -60,6 +65,7 @@
 		BBD62FF71A9996BB00E35C8C /* SortingAndSearchingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortingAndSearchingTests.swift; path = ../SwiftTechnicalQuestions/SortingAndSearchingTests.swift; sourceTree = "<group>"; };
 		BBD6E95B1A95B3BD00DF3252 /* LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = LinkedLists.playground; path = SwiftTechnicalQuestions/LinkedLists.playground; sourceTree = "<group>"; };
 		BBDD18BA1A9AE71800CDE9A8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDFA2F11AA83E250072DEDE /* BitManipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitManipulation.swift; sourceTree = "<group>"; };
 		BBE080E41A98355100624BD1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		BBE080F91A983A2F00624BD1 /* ArraysAndStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraysAndStrings.swift; sourceTree = "<group>"; };
 		BBE0810E1A9840E500624BD1 /* ArraysAndStringsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraysAndStringsTest.swift; sourceTree = "<group>"; };
@@ -112,11 +118,13 @@
 			isa = PBXGroup;
 			children = (
 				BB6D4A121A94548D00BAF2AF /* main.swift */,
+				BBDFA2F11AA83E250072DEDE /* BitManipulation.swift */,
 				BB9DD8211A9648F500B8C4BE /* LinkedLists.swift */,
 				BB6927EC1A96B8E300DEC31A /* StacksAndQueues.swift */,
 				BBE080F91A983A2F00624BD1 /* ArraysAndStrings.swift */,
 				BBE081141A985FA300624BD1 /* TreesAndGraphs.swift */,
 				BBD62FF51A997E5300E35C8C /* SortingAndSearching.swift */,
+				BB08909B1AA7D928003FBC9E /* MathematicsAndProbability.swift */,
 			);
 			path = SwiftTechnicalQuestions;
 			sourceTree = "<group>";
@@ -231,6 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDFA2F21AA83E250072DEDE /* BitManipulation.swift in Sources */,
+				BB08909C1AA7D928003FBC9E /* MathematicsAndProbability.swift in Sources */,
 				BB1AFFD71A98FF520088E9CD /* TreesAndGraphs.swift in Sources */,
 				BB249D8F1A99AE59009BFE33 /* SortingAndSearching.swift in Sources */,
 				BB249D901A99AE5D009BFE33 /* main.swift in Sources */,
@@ -244,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB41B37F1AA842B6004EFB53 /* BitManipulation.swift in Sources */,
 				BBDD18C01A9AE94100CDE9A8 /* ArraysAndStrings.swift in Sources */,
 				BBDD18C11A9AE94400CDE9A8 /* StacksAndQueues.swift in Sources */,
+				BB17F8061AA7DAFB00EB6193 /* MathematicsAndProbability.swift in Sources */,
 				BBDD18B31A9AE6B100CDE9A8 /* StacksAndQueuesTests.swift in Sources */,
 				BBDD18BE1A9AE93B00CDE9A8 /* SortingAndSearching.swift in Sources */,
 				BBDD18B01A9AE6AB00CDE9A8 /* LinkedListsTests.swift in Sources */,
