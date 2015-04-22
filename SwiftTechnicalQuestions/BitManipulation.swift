@@ -11,7 +11,7 @@ import Foundation
 
 public class BitManipulation {
     
-    static func insertBits(inout m : Int, inout intoN: Int, from :Int, to : Int ) {
+    class func insertBits(inout m : Int, inout intoN: Int, from :Int, to : Int ) {
         //TODO: Not working correctly
         
         var allOnes = ~0
@@ -23,11 +23,46 @@ public class BitManipulation {
         
         var mask = left | right
         
-        var nCleared = n & mask //clear bits to through from
+        var nCleared = intoN & mask //clear bits to through from
         
         var shiftedM = m << from
         intoN = intoN | shiftedM
         println("result: \(intoN)")
     }
     
+}
+
+class Vehicle {
+    var seats = 2
+    var noise = "honk"
+    var maxSpeed = 0
+    
+    func description() {
+        
+        println("this vehicle has \(seats) seats and goes \(noise)!!!")
+        
+    }
+    
+}
+
+class Bicylcle : Vehicle {
+    var numberOfWheels = 2
+    override var noise : String {
+        get {
+            return "ring ring"
+        } set {
+            self.noise = newValue
+        }
+    }
+    
+     override func description() {
+        println("I'm a bike, \(noise)!")
+    }
+    
+}
+
+extension String {
+    func countOfChars()->Int{
+       return count(self)
+    }
 }

@@ -8,53 +8,59 @@
 
 import Foundation
 
-//    func insertionSort(inout numberList: [Int]) {
-//    var x, y, key : Int
-//    
-//    for (x = 0; x < numberList.count; x++) {
-//        //obtain a key to be evaluated
-//        key = numberList[x]
-//        //iterate backwards through the sorted portion
-//        for (y = x; y > -1; y--) {
-//            if (key < numberList[y]) {
-//                //remove item from original position
-//                numberList.removeAtIndex(y + 1)
-////                println("1:\(data)\n")
-//                //insert the number at the key position
-//                numberList.insert(key, atIndex: y)
-////                println("2:\(data)\n")
-//            }
-//        }
-//        //end for
-//    } //end for
-//} //end function
+    func insertionSort(inout numberList: [Int]) {
+    var x, y, key : Int
+    
+    for (x = 0; x < numberList.count; x++) {
+        //obtain a key to be evaluated
+        key = numberList[x]
+        //iterate backwards through the sorted portion
+        for (y = x; y > -1; y--) {
+            if (key < numberList[y]) {
+                //remove item from original position
+                numberList.removeAtIndex(y + 1)
+//                println("1:\(data)\n")
+                //insert the number at the key position
+                numberList.insert(key, atIndex: y)
+//                println("2:\(data)\n")
+            }
+        }
+        //end for
+    } //end for
+} //end function
+
+func fizzBuzz() {
+    for x in 1...100 {
+        if x % 3 == 0 && x % 5 == 0 {
+            println("fizzBuzz")
+        }
+        else if x % 3 == 0 {
+            println("fizz")
+        }
+        else if x % 5 == 0 {
+            println("buzz")
+        }
+        else {
+            println(x)
+        }
+        
+        
+        
+        
+    }
+}
+
+//var m = 19
+//var n = 1024
 //
-//func fizzBuzz() {
-//    for x in 1...100 {
-//        if x % 3 == 0 && x % 5 == 0 {
-//            println("fizzBuzz")
-//        }
-//        else if x % 3 == 0 {
-//            println("fizz")
-//        }
-//        else if x % 5 == 0 {
-//            println("buzz")
-//        }
-//        else {
-//            println(x)
-//        }
-//        
-//        
-//        
-//        
-//    }
-//}
-
-var m = 19
-var n = 1024
-
-BitManipulation.insertBits(&m, intoN: &n, from: 2, to: 6)
-
+//BitManipulation.insertBits(&m, intoN: &n, from: 2, to: 6)
+//
+//var myBike = Bicylcle()
+//myBike.description()
+//
+//var aString = "Hi I'm a string!"
+//println("There are \(aString.countOfChars()) in this string)")
+//
 
 //fizzBuzz()
 
